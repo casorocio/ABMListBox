@@ -34,22 +34,22 @@ Partial Class Form1
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(3, 17)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(120, 199)
-        Me.ListBox1.TabIndex = 0
+        Me.ListBox1.Size = New System.Drawing.Size(154, 199)
+        Me.ListBox1.TabIndex = 4
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(12, 229)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.TabIndex = 0
         '
         'Alta
         '
         Me.Alta.Location = New System.Drawing.Point(197, 31)
         Me.Alta.Name = "Alta"
-        Me.Alta.Size = New System.Drawing.Size(75, 23)
-        Me.Alta.TabIndex = 2
+        Me.Alta.Size = New System.Drawing.Size(75, 30)
+        Me.Alta.TabIndex = 1
         Me.Alta.Text = "Alta"
         Me.Alta.UseVisualStyleBackColor = True
         '
@@ -57,8 +57,8 @@ Partial Class Form1
         '
         Me.Baja.Location = New System.Drawing.Point(197, 83)
         Me.Baja.Name = "Baja"
-        Me.Baja.Size = New System.Drawing.Size(75, 23)
-        Me.Baja.TabIndex = 3
+        Me.Baja.Size = New System.Drawing.Size(75, 28)
+        Me.Baja.TabIndex = 2
         Me.Baja.Text = "Baja"
         Me.Baja.UseVisualStyleBackColor = True
         '
@@ -66,9 +66,9 @@ Partial Class Form1
         '
         Me.Modificar.Location = New System.Drawing.Point(197, 137)
         Me.Modificar.Name = "Modificar"
-        Me.Modificar.Size = New System.Drawing.Size(75, 23)
-        Me.Modificar.TabIndex = 4
-        Me.Modificar.Text = "Button3"
+        Me.Modificar.Size = New System.Drawing.Size(75, 32)
+        Me.Modificar.TabIndex = 3
+        Me.Modificar.Text = "Modificar"
         Me.Modificar.UseVisualStyleBackColor = True
         '
         'Form1
@@ -82,6 +82,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
