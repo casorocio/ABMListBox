@@ -27,6 +27,9 @@ Partial Class Form1
         Me.Alta = New System.Windows.Forms.Button
         Me.Baja = New System.Windows.Forms.Button
         Me.Modificar = New System.Windows.Forms.Button
+        Me.Enumerar = New System.Windows.Forms.Button
+        Me.Alfabetizar = New System.Windows.Forms.Button
+        Me.Mayuscula = New System.Windows.Forms.Button
         Me.SuspendLayout()
         '
         'ListBox1
@@ -55,27 +58,57 @@ Partial Class Form1
         '
         'Baja
         '
-        Me.Baja.Location = New System.Drawing.Point(197, 83)
+        Me.Baja.Location = New System.Drawing.Point(197, 67)
         Me.Baja.Name = "Baja"
-        Me.Baja.Size = New System.Drawing.Size(75, 28)
+        Me.Baja.Size = New System.Drawing.Size(75, 31)
         Me.Baja.TabIndex = 2
         Me.Baja.Text = "Baja"
         Me.Baja.UseVisualStyleBackColor = True
         '
         'Modificar
         '
-        Me.Modificar.Location = New System.Drawing.Point(197, 137)
+        Me.Modificar.Location = New System.Drawing.Point(197, 104)
         Me.Modificar.Name = "Modificar"
-        Me.Modificar.Size = New System.Drawing.Size(75, 32)
+        Me.Modificar.Size = New System.Drawing.Size(75, 31)
         Me.Modificar.TabIndex = 3
         Me.Modificar.Text = "Modificar"
         Me.Modificar.UseVisualStyleBackColor = True
+        '
+        'Enumerar
+        '
+        Me.Enumerar.Location = New System.Drawing.Point(197, 141)
+        Me.Enumerar.Name = "Enumerar"
+        Me.Enumerar.Size = New System.Drawing.Size(75, 28)
+        Me.Enumerar.TabIndex = 5
+        Me.Enumerar.Text = "Enumerar"
+        Me.Enumerar.UseVisualStyleBackColor = True
+        '
+        'Alfabetizar
+        '
+        Me.Alfabetizar.Location = New System.Drawing.Point(197, 175)
+        Me.Alfabetizar.Name = "Alfabetizar"
+        Me.Alfabetizar.Size = New System.Drawing.Size(75, 27)
+        Me.Alfabetizar.TabIndex = 6
+        Me.Alfabetizar.Text = "Alfabetizar"
+        Me.Alfabetizar.UseVisualStyleBackColor = True
+        '
+        'Mayuscula
+        '
+        Me.Mayuscula.Location = New System.Drawing.Point(197, 208)
+        Me.Mayuscula.Name = "Mayuscula"
+        Me.Mayuscula.Size = New System.Drawing.Size(75, 27)
+        Me.Mayuscula.TabIndex = 7
+        Me.Mayuscula.Text = "Mayuscula"
+        Me.Mayuscula.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.Mayuscula)
+        Me.Controls.Add(Me.Alfabetizar)
+        Me.Controls.Add(Me.Enumerar)
         Me.Controls.Add(Me.Modificar)
         Me.Controls.Add(Me.Baja)
         Me.Controls.Add(Me.Alta)
@@ -93,5 +126,8 @@ Partial Class Form1
     Friend WithEvents Alta As System.Windows.Forms.Button
     Friend WithEvents Baja As System.Windows.Forms.Button
     Friend WithEvents Modificar As System.Windows.Forms.Button
+    Friend WithEvents Enumerar As System.Windows.Forms.Button
+    Friend WithEvents Alfabetizar As System.Windows.Forms.Button
+    Friend WithEvents Mayuscula As System.Windows.Forms.Button
 
 End Class
