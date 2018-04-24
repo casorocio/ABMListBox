@@ -19,9 +19,11 @@ Public Class Form1
 
         'estrada de datos
         ListBox1.Items.Add(TextBox1.Text.Trim)
-
+        'limpia la seleccion
+        ListBox1.ClearSelected()
         'limpa luego del alta
         TextBox1.Clear()
+
 
     End Sub
 
@@ -52,10 +54,10 @@ Public Class Form1
         End If
 
         ListBox1.Items.Item(ListBox1.SelectedIndex) = TextBox1.Text
-        TextBox1.Clear()
+
         'limpiar lo seleccionado
         ListBox1.ClearSelected()
-
+        TextBox1.Clear()
 
     End Sub
 
